@@ -7,6 +7,7 @@ describe('#greatestCommonDivisor', () => {
     })
     test("it returns the greatest common divisor", () => {
         expect(greatestCommonDivisor(8, 12)).toEqual(4)
+        expect(greatestCommonDivisor(54, 24)).toEqual(6)
     })
     test("it returns the greatest common divisor when one or both number(s) is negative", () => {
         expect(greatestCommonDivisor(-8, 12)).toEqual(4)
@@ -21,6 +22,8 @@ describe('#greatestCommonDivisor', () => {
         expect(greatestCommonDivisor(5, true)).toEqual("Please enter two integers which are not both zero")
         expect(greatestCommonDivisor(null, 5)).toEqual("Please enter two integers which are not both zero")
         expect(greatestCommonDivisor(undefined, 5)).toEqual("Please enter two integers which are not both zero")
+        expect(greatestCommonDivisor(7.32, 5)).toEqual("Please enter two integers which are not both zero")
+
     })
     
 })
