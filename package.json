@@ -1,0 +1,15 @@
+{
+  "name": "greatest-common-divisor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "greatestCommonDivisor.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
