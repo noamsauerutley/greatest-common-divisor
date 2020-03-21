@@ -15,7 +15,7 @@ let greatestCommonDivisor = (firstNum, secondNum) => {
         if (!secondNum) {  
             return firstNum 
         }  
-        // recursively call greatestCommonDivisor function with params secondnum & firstNum modulo secondNum
+        // recursively call greatestCommonDivisor function with params secondnum & the remainder of firstNum minus secondNum
         return greatestCommonDivisor(secondNum, firstNum % secondNum)
     }
     // error message in case of incorrect parameters
